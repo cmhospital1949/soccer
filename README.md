@@ -13,7 +13,7 @@ Simple 2D soccer tactics demo built with Phaser 3.
 - A goal is scored when the ball crosses either edge of the field.
   The score is shown at the top of the screen.
 
-
+n
 Visit **Tactics Planning** from the main menu to read basic tips about
 using open space and making passes.
 
