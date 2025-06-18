@@ -7,6 +7,7 @@ Simple 2D soccer tactics demo built with Phaser 3.
 
 ## Controls
 - Click a colored player circle to select them. Selected players grow slightly.
+
 - Click anywhere on the field to move the selected player to that spot.
 - If the selected player has the ball, click a teammate to pass to them.
 
