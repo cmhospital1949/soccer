@@ -14,5 +14,6 @@ These instructions apply to the entire repository.
 - In case of merge conflicts, automatically keep the incoming changes without adding conflict markers.
   The latest code is always correct and may overwrite existing content.
 
+
 ## Documentation
 - Keep documentation in Markdown.

@@ -36,6 +36,7 @@ export default class GameScene extends Phaser.Scene {
     this.ui.updateScore(this.scoreA, this.scoreB);
 
     this.inputManager = new InputManager(this, this.players, this.ball);
+
     this.inputManager.enable();
 
     this.tacticsManager = new TacticsManager(this, this.ball);
@@ -74,5 +75,6 @@ export default class GameScene extends Phaser.Scene {
   update() {
     this.tacticsManager.update();
     this.checkGoal();
+
   }
 }

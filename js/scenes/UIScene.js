@@ -12,5 +12,6 @@ export default class UIScene extends Phaser.Scene {
 
   updateScore(a, b) {
     this.scoreText.setText(`${a} : ${b}`);
+
   }
 }

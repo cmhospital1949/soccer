@@ -18,3 +18,4 @@ This plan outlines steps to build the 2D soccer tactics game described in `PRD_0
 - **Conflict rule** - clarified automatic merge conflict resolution and changed
   menu buttons to respond on pointer up.
 - **Menu reliability** - use pointerdown for menu buttons and refine conflict policy.
+
