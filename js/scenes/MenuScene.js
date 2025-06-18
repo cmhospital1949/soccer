@@ -23,5 +23,6 @@ export default class MenuScene extends Phaser.Scene {
     });
     tacticsText.on('pointerover', () => tacticsText.setStyle({ color: '#ffff00' }));
     tacticsText.on('pointerout', () => tacticsText.setStyle({ color: '#ffffff' }));
+
   }
 }

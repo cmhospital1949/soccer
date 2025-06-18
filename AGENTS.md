@@ -13,5 +13,6 @@ These instructions apply to the entire repository.
 - If a `package.json` exists with test scripts, run `npm test` before committing and ensure it passes.
 - In case of merge conflicts, prefer the new code. Replace older sections with the updated implementation automatically.
 
+
 ## Documentation
 - Keep documentation in Markdown.

@@ -11,6 +11,7 @@ export default class Ball extends Phaser.GameObjects.Container {
 
     this.add(g);
     this.setSize(12, 12);
+
     this.setOrigin(0.5);
   }
 }
