@@ -21,5 +21,6 @@ This plan outlines steps to build the 2D soccer tactics game described in `PRD_0
 - **Loading screen** - add boot loading message, switch menu events to pointer up, clarify blank screen issue.
 - **Cleanup** - removed package-lock, simplified package.json and updated docs.
 - **Scene guard** - check for missing JSON assets before starting the game.
+- **Local fallback** - added local Phaser copy with CDN fallback and documented how to switch.
 
 
