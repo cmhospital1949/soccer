@@ -3,12 +3,15 @@ Simple 2D soccer tactics demo built with Phaser 3.
 
 ## How to Run
 1. Launch a local web server (for example, the VSCode Live Server extension) and open `index.html`.
+2. Click **Start Game** from the menu.
 
 ## Controls
-- Click a colored player circle to select them. Selected players grow slightly.
+- Tap a player to select them. The selected player grows slightly.
+- Tap the field to move the selected player.
+- If the selected player has the ball, tap a teammate to pass.
+- A goal is scored when the ball crosses either edge of the field.
+  The score is shown at the top of the screen.
 
-- Click anywhere on the field to move the selected player to that spot.
-- If the selected player has the ball, click a teammate to pass to them.
 
 Visit **Tactics Planning** from the main menu to read basic tips about
 using open space and making passes.
