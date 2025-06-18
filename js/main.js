@@ -13,7 +13,7 @@ const config = {
   scene: [BootScene, MenuScene, TacticsScene, GameScene, UIScene]
 };
 
-n
+
 window.addEventListener('load', () => {
   const game = new Phaser.Game(config);
 });
