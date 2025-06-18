@@ -11,5 +11,6 @@ export default class Player extends Phaser.GameObjects.Container {
     this.setSize(16, 26);
     this.setScale(0.8);
     this.hasBall = false;
+
   }
 }
