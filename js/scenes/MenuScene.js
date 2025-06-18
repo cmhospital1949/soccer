@@ -7,6 +7,7 @@ export default class MenuScene extends Phaser.Scene {
     const startText = this.add
       .text(400, 260, 'Start Game', { fontSize: '32px', color: '#ffffff' })
       .setOrigin(0.5);
+
     startText.setInteractive();
     startText.on('pointerup', () => {
       this.scene.start('GameScene');
@@ -19,5 +20,6 @@ export default class MenuScene extends Phaser.Scene {
     tacticsText.on('pointerup', () => {
       this.scene.start('TacticsScene');
     });
+
   }
 }
