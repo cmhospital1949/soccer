@@ -12,4 +12,5 @@ This plan outlines steps to build the 2D soccer tactics game described in `PRD_0
 ## Progress Log
 - **Replan** - rewrote project plan and added player sprites with selection scaling.
 - **Remove binary asset** - replaced player sprites with drawn circles to avoid binary file issues.
+- **Simplify setup** - load Phaser from CDN so running the demo doesn't require npm install.
 

@@ -11,6 +11,7 @@ const config = {
   width: 800,
   height: 600,
   scene: [BootScene, MenuScene, TacticsScene, GameScene, UIScene]
+};
 
 
 window.addEventListener('load', () => {

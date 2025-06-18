@@ -2,8 +2,7 @@
 Simple 2D soccer tactics demo built with Phaser 3.
 
 ## How to Run
-1. Install dependencies with `npm install`.
-2. Launch a local web server (for example, the VSCode Live Server extension) and open `index.html`.
+1. Launch a local web server (for example, the VSCode Live Server extension) and open `index.html`.
 
 ## Controls
 - Click a colored player circle to select them. Selected players grow slightly.

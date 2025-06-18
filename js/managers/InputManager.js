@@ -53,6 +53,7 @@ export default class InputManager {
           duration: 500
         });
       }
+      this.selected.setScale(0.5);
 
       this.selected = null;
       return;
