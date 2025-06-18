@@ -26,6 +26,7 @@ export default class GameScene extends Phaser.Scene {
     this.field = new Field(this, cfg.width, cfg.height);
 
     const formation = formData.formations[0];
+
     this.basePositions = formation.positions;
 
     this.players = [];

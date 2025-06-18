@@ -22,3 +22,4 @@ This plan outlines steps to build the 2D soccer tactics game described in `PRD_0
 - **Cleanup** - removed package-lock, simplified package.json and updated docs.
 - **Scene guard** - check for missing JSON assets before starting the game.
 
+
