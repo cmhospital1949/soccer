@@ -10,25 +10,23 @@ export default class GameScene extends Phaser.Scene {
   }
 
   create() {
-    const gameConfig = this.cache.json.get('gameConfig');
-    const formationsData = this.cache.json.get('formations');
+    const cfgData = this.cache.json.get('gameConfig');
+    const formData = this.cache.json.get('formations');
 
-    if (!gameConfig || !formationsData || !formationsData.formations.length) {
-      console.error('Missing configuration data');
-      this.add
-        .text(400, 300, 'Failed to load game data', {
-          fontSize: '24px',
-          color: '#ff0000'
-        })
-        .setOrigin(0.5);
+    if (!cfgData || !formData) {
+      const missing = [];
+      if (!cfgData) missing.push('gameConfig');
+      if (!formData) missing.push('formations');
+      this.showLoadError(`Missing JSON assets: ${missing.join(', ')}`);
       return;
     }
 
-    const cfg = gameConfig.field;
+    const cfg = cfgData.field;
     this.cfg = cfg;
     this.field = new Field(this, cfg.width, cfg.height);
 
-    const formation = formationsData.formations[0];
+    const formation = formData.formations[0];
+
     this.basePositions = formation.positions;
 
     this.players = [];
@@ -83,6 +81,15 @@ export default class GameScene extends Phaser.Scene {
       this.scoreA += 1;
       this.ui.updateScore(this.scoreA, this.scoreB);
       this.resetPositions();
+    }
+  }
+
+  showLoadError(msg) {
+    console.error(msg);
+    if (this.add) {
+      this.add
+        .text(400, 300, msg, { fontSize: '20px', color: '#ff0000' })
+        .setOrigin(0.5);
     }
   }
 
