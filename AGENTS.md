@@ -15,5 +15,6 @@ These instructions apply to the entire repository.
   The latest code is considered the source of truth and may overwrite
   existing content automatically to avoid conflicts.
 
+
 ## Documentation
 - Keep documentation in Markdown.
