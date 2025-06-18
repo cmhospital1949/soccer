@@ -3,7 +3,7 @@ Simple 2D soccer tactics demo built with Phaser 3.
 
 ## How to Run
 1. Launch a local web server (for example, the VSCode Live Server extension) and open `index.html`.
-2. From the menu, choose **Start Game** or **Tactics Planning**. The options highlight when hovered so you know they are clickable.
+2. From the menu, choose **Start Game** to begin the match or **Tactics Planning** to read tips. The options highlight when hovered so you know they are clickable.
 
 
 ## Controls
