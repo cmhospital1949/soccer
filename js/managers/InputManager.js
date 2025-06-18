@@ -31,7 +31,9 @@ export default class InputManager {
             }
           });
         }
+        this.selected.setScale(0.5);
         this.selected = clickedPlayer;
+        this.selected.setScale(0.6);
         return;
       }
 
@@ -58,6 +60,7 @@ export default class InputManager {
 
     if (clickedPlayer) {
       this.selected = clickedPlayer;
+      this.selected.setScale(0.6);
     }
 
   }

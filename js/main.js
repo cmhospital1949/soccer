@@ -12,7 +12,6 @@ const config = {
   height: 600,
   scene: [BootScene, MenuScene, TacticsScene, GameScene, UIScene]
 
-};
 
 window.addEventListener('load', () => {
   const game = new Phaser.Game(config);
