@@ -26,10 +26,11 @@ export default class GameScene extends Phaser.Scene {
       );
     });
 
+    this.ball = new Ball(this, basePositions[0].x, basePositions[0].y);
+    this.players[0].hasBall = true;
 
-    this.ball = new Ball(this, cfg.width / 2, cfg.height / 2);
+    this.inputManager = new InputManager(this, this.players, this.ball);
 
-    this.inputManager = new InputManager(this, this.players);
     this.inputManager.enable();
 
     this.tacticsManager = new TacticsManager(this, this.ball);

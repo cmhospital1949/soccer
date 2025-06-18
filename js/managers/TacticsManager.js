@@ -5,7 +5,7 @@ export default class TacticsManager {
   }
 
   update() {
-    // Simple demo: move the ball slowly to the right
-    this.ball.x += 0.5;
+    // Placeholder for future AI tactics
+
   }
 }
