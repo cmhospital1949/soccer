@@ -26,6 +26,7 @@ export default class GameScene extends Phaser.Scene {
       );
     });
 
+
     this.ball = new Ball(this, cfg.width / 2, cfg.height / 2);
 
     this.inputManager = new InputManager(this, this.players);
