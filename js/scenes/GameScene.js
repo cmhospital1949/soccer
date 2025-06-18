@@ -10,11 +10,25 @@ export default class GameScene extends Phaser.Scene {
   }
 
   create() {
-    const cfg = this.cache.json.get('gameConfig').field;
+    const gameConfig = this.cache.json.get('gameConfig');
+    const formationsData = this.cache.json.get('formations');
+
+    if (!gameConfig || !formationsData || !formationsData.formations.length) {
+      console.error('Missing configuration data');
+      this.add
+        .text(400, 300, 'Failed to load game data', {
+          fontSize: '24px',
+          color: '#ff0000'
+        })
+        .setOrigin(0.5);
+      return;
+    }
+
+    const cfg = gameConfig.field;
     this.cfg = cfg;
     this.field = new Field(this, cfg.width, cfg.height);
 
-    const formation = this.cache.json.get('formations').formations[0];
+    const formation = formationsData.formations[0];
     this.basePositions = formation.positions;
 
     this.players = [];
