@@ -4,5 +4,6 @@ export default class Player extends Phaser.GameObjects.Ellipse {
     scene.add.existing(this);
     this.setOrigin(0.5);
     this.hasBall = false;
+
   }
 }

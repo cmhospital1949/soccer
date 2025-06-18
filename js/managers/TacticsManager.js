@@ -6,5 +6,6 @@ export default class TacticsManager {
 
   update() {
     // Placeholder for future AI tactics
+
   }
 }

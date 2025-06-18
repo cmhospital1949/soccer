@@ -3,6 +3,7 @@ export default class InputManager {
     this.scene = scene;
     this.players = players;
     this.ball = ball;
+
     this.selected = null;
   }
 
@@ -34,12 +35,14 @@ export default class InputManager {
         return;
       }
 
+
       this.scene.tweens.add({
         targets: this.selected,
         x: worldX,
         y: worldY,
         duration: 500
       });
+
       if (this.selected.hasBall) {
         this.scene.tweens.add({
           targets: this.ball,
@@ -48,6 +51,7 @@ export default class InputManager {
           duration: 500
         });
       }
+
       this.selected = null;
       return;
     }
@@ -55,5 +59,6 @@ export default class InputManager {
     if (clickedPlayer) {
       this.selected = clickedPlayer;
     }
+
   }
 }
