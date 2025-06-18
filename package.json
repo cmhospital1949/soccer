@@ -1,0 +1,16 @@
+{
+  "name": "soccer",
+  "version": "1.0.0",
+  "description": "2D축구게임",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
