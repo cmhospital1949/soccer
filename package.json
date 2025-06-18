@@ -1,0 +1,9 @@
+{
+  "name": "soccer",
+  "version": "1.0.0",
+  "description": "2D soccer tactics demo",
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "type": "commonjs"
+}
