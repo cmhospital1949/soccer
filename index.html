@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>2D Soccer Tactics Game</title>
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Load Phaser from CDN so the demo works without npm install -->
+  <!-- Load Phaser from CDN with a fallback to local copy -->
   <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.js"></script>
+  <script>window.Phaser || document.write('<script src="js/vendor/phaser.js"><\\/script>');</script>
 
   <script type="module" src="js/main.js"></script>
 </head>
