@@ -1,2 +1,12 @@
 # soccer
-2D축구게임
+Simple 2D soccer tactics demo built with Phaser 3.
+
+## How to Run
+1. Install dependencies with `npm install`.
+2. Launch a local web server (for example, the VSCode Live Server extension) and open `index.html`.
+
+## Controls
+- Click a player to select them.
+- Click anywhere on the field to move the selected player to that spot.
+
+The demo loads two teams with a 4-4-2 formation (11 players each) so you can experiment with basic positioning.
