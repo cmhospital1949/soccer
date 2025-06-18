@@ -7,12 +7,14 @@ Simple 2D soccer tactics demo built with Phaser 3.
    Phaser is loaded from a CDN so no installation is needed.
 2. From the menu, choose **Start Game** to begin the match or **Tactics Planning** to read tips. The options highlight when hovered so you know they are clickable.
 
+
 ## Controls
 - Tap a player to select them. The selected player grows slightly.
 - Tap the field to move the selected player.
 - If the selected player has the ball, tap a teammate to pass.
 - A goal is scored when the ball crosses either edge of the field.
   The score is shown at the top of the screen.
+
 
 Visit **Tactics Planning** from the main menu to read basic tips about
 using open space and making passes.

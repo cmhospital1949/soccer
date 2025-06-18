@@ -10,6 +10,7 @@ export default class BootScene extends Phaser.Scene {
       color: '#ffffff'
     }).setOrigin(0.5);
 
+
     this.load.json('gameConfig', 'js/data/game_config.json');
     this.load.json('formations', 'js/data/formations.json');
     this.load.json('playerStats', 'js/data/player_stats.json');
@@ -18,5 +19,6 @@ export default class BootScene extends Phaser.Scene {
       this.scene.start('MenuScene');
     });
   }
+
 
 }

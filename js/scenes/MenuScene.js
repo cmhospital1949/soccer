@@ -9,6 +9,7 @@ export default class MenuScene extends Phaser.Scene {
       .setOrigin(0.5)
       .setInteractive({ useHandCursor: true });
     startText.on('pointerup', () => {
+
       this.scene.start('GameScene');
     });
     startText.on('pointerover', () => startText.setStyle({ color: '#ffff00' }));
@@ -19,9 +20,11 @@ export default class MenuScene extends Phaser.Scene {
       .setOrigin(0.5)
       .setInteractive({ useHandCursor: true });
     tacticsText.on('pointerup', () => {
+
       this.scene.start('TacticsScene');
     });
     tacticsText.on('pointerover', () => tacticsText.setStyle({ color: '#ffff00' }));
     tacticsText.on('pointerout', () => tacticsText.setStyle({ color: '#ffffff' }));
+
   }
 }

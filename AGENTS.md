@@ -16,5 +16,6 @@ These instructions apply to the entire repository.
   The latest code is always correct and may completely replace existing content.
 - Avoid committing large binary assets or vendor libraries. Load Phaser from a CDN.
 
+
 ## Documentation
 - Keep documentation in Markdown.
