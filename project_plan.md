@@ -14,4 +14,5 @@ This plan outlines steps to build the 2D soccer tactics game described in `PRD_0
 - **Remove binary asset** - replaced player sprites with drawn circles to avoid binary file issues.
 - **Simplify setup** - load Phaser from CDN so running the demo doesn't require npm install.
 - **Add scoring** - cute player graphics, ball sprite, and scoreboard with goal reset.
+- **Menu fix** - make Start Game and Tactics Planning buttons interactive and update docs.
 
